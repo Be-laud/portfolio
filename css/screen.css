@@ -1,0 +1,168 @@
+* {
+  outline: none;
+}
+
+html, input, textarea, button {
+  -webkit-appearance: none;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 13px;
+  color: #333;
+  margin: 0;
+  position: relative;
+  background: red;
+}
+
+.home_page {
+	position: relative;
+	background: #D1D1D1 none repeat scroll 0% 0%;
+	margin: 0px auto;
+	top: 0px;
+	height: 620px;
+	width: 100%;
+
+}
+
+.content{
+	width:100%;
+	background: white;
+	top: 0px;
+	position:relative;
+}
+
+.content .nav_container {
+	width:100%;
+	background: orange;
+	top: 0px;
+	position: absolute;
+    height:40px;
+    overflow: hidden;
+    margin: auto ;
+}
+
+.content .nav_container .menu{
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:row;
+	position: relative;
+	justify-content:space-between;
+	
+}
+
+.content .nav_container .menu .work {
+	background-color: white;
+	text-align: center;
+	width:130px;
+	border-width: 2px;
+	border-color:blue;
+}
+
+
+.content .projects{
+	align-self: flex-end;
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:row;
+	position:relative;
+	top:40px;
+	width:100%;
+	background:purple;
+}
+
+.content .projects .bloc_project1{
+	width:200px;
+	height: 350px;
+	margin:50px 50px auto;
+	background:black;
+
+}
+
+.content .projects .bloc_project2{
+	width:200px;
+	height: 200px;
+	margin:50px 50px auto;
+	background:black;
+
+}
+
+.content .projects .bloc_project3{
+	width:200px;
+	height: 300px;
+	margin:50px 50px auto;
+	background:black;
+
+}
+/* Position relative va permettre de gérer le deplacepent de bloc au pixel prêt  : top ; rigtht... 
+
+.wrapper p {
+
+	color: blue;
+	padding: 150px 0; 
+	position: relative;
+	top: -4px;
+	right: 40px;
+	z-index: 999;
+	background: rgba( 126,215,50,0.5);
+	text-align: center; 
+}
+
+*/
+
+/* 
+.wrapper .ecv {
+	position: absolute;
+	left:0;
+	top:0;
+	background: rgba(0,0,0,0.5);
+	width:100px;
+	height: 200px;
+	line-height: 200px;
+	color: white; 
+	z-index: 1; 
+	overflow: hidden; 
+}
+
+ */
+
+/*.wrapper nav { 
+	position:absolute ;
+	right: 0px; 
+	top: 0px;
+	right: 0px; 
+	top: 0px;
+	}
+ 
+ .wrapper nav ul{ 
+	padding: 0;
+	margin: 0px;
+	}
+
+/* Ol : liste avec ordre ; ul: liste sans ordre */
+
+/* .wrapper nav ul li {
+	list-style: none; 
+	float: left;
+	margin: 0 10px;
+	
+} */
+
+@media screen and (max-width: 960px) { 
+
+  body {
+	background: yellow;
+  }
+
+.logo {
+	color:red;
+}
+.wrapper { 
+margin: 0;
+
+}
+}
